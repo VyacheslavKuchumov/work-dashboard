@@ -6,7 +6,7 @@
       <!-- Header -->
       <header class="bg-white border-b border-gray-200 shadow-sm">
         <nav class="container mx-auto flex items-center justify-between py-4 px-6">
-          <h1 class="text-xl font-bold">⏳ Work Dashboard</h1>
+          <h1 class="text-xl font-bold">🚧 Work Dashboard</h1>
           <div class="flex gap-4">
             <NuxtLink to="/" class="hover:underline">Home</NuxtLink>
             <NuxtLink to="/tasks" class="hover:underline">Tasks</NuxtLink>
