@@ -21,9 +21,9 @@
       </main>
 
       <!-- Footer -->
-      <footer class="bg-white border-t border-gray-200 py-4 text-center text-sm text-gray-500">
+      <!-- <footer class="bg-white border-t border-gray-200 py-4 text-center text-sm text-gray-500">
         © {{ new Date().getFullYear() }} Sluvik Developments. All rights reserved.
-      </footer>
+      </footer> -->
     </div>
   </UApp>
 </template>

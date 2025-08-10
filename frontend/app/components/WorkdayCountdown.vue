@@ -23,7 +23,7 @@
   </UCard>
 </template>
 
-<script setup lang="ts">
+<script setup>
 
 
 const workdayTimeLeft = ref('')

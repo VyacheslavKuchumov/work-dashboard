@@ -2,6 +2,9 @@
   "name": "nuxt-app",
   "type": "module",
   "private": true,
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -25,8 +28,5 @@
     "vite": "^7.1.1",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
-  },
-  "engines": {
-    "node": ">=20.9.0"
   }
 }
