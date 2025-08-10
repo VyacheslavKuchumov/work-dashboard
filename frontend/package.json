@@ -1,26 +1,31 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "nuxt-app",
+  "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "framer-motion": "^12.23.12",
-    "next": "15.4.6",
-    "react": "19.1.0",
-    "react-dom": "19.1.0"
-  },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9",
-    "eslint-config-next": "15.4.6",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
+    "@nuxt/content": "^3.6.3",
+    "@nuxt/devtools": "^2.6.2",
+    "@nuxt/eslint": "^1.8.0",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^1.15.0",
+    "@nuxt/image": "^1.11.0",
+    "@nuxt/scripts": "^0.11.10",
+    "@nuxt/test-utils": "^3.19.2",
+    "@nuxt/ui": "^3.3.0",
+    "@unhead/vue": "^2.0.14",
+    "better-sqlite3": "^12.2.0",
+    "eslint": "^9.33.0",
+    "nuxt": "^4.0.3",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.1",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
   }
 }
