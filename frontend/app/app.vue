@@ -6,10 +6,11 @@
       <!-- Header -->
       <header class="bg-white border-b border-gray-200 shadow-sm">
         <nav class="container mx-auto flex items-center justify-between py-4 px-6">
-          <h1 class="text-xl font-bold">⏳ Workday Timer</h1>
+          <h1 class="text-xl font-bold">⏳ Work Dashboard</h1>
           <div class="flex gap-4">
-            <UButton to="/" variant="soft" color="primary">Home</UButton>
-            <UButton to="/about" variant="soft" color="primary">About</UButton>
+            <NuxtLink to="/" class="hover:underline">Home</NuxtLink>
+            <NuxtLink to="/tasks" class="hover:underline">Tasks</NuxtLink>
+            <NuxtLink to="/reminders" class="hover:underline">Reminders</NuxtLink>
           </div>
         </nav>
       </header>
