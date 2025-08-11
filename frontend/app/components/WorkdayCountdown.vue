@@ -1,5 +1,7 @@
 <template>
-  <UCard class="text-center bg-white shadow-lg rounded-lg overflow-hidden"
+  <UCard
+        variant="soft" 
+        class="text-center bg-white shadow-lg rounded-lg overflow-hidden"
         :ui="{
         header: 'p-0 sm:px-0',
         }">

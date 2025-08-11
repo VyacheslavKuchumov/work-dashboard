@@ -1,6 +1,7 @@
 <template>
   <UCard 
-  class="bg-white shadow-lg rounded-lg overflow-hidden"
+        variant="soft"
+        class="bg-white shadow-lg rounded-lg overflow-hidden"
         :ui="{
         header: 'p-0 sm:px-0', // Remove padding from header slot
         }">
