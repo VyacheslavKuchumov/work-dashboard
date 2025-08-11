@@ -29,7 +29,11 @@
 </template>
 
 <script setup>
-// Nuxt UI auto-imports components like UApp, UButton, etc.
+
+  useHead({
+    htmlAttrs: { class: 'light' }
+  })
+
 </script>
 
 <style>

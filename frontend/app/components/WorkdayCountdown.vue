@@ -1,18 +1,11 @@
 <template>
-  <UCard class="text-center" 
+  <UCard class="text-center bg-white shadow-lg rounded-lg overflow-hidden"
         :ui="{
         header: 'p-0 sm:px-0',
         }">
         <template #header>
             <NuxtImg 
-            v-if="!isWorkday"
             src="/images/chill.jpg"
-            alt="Work is over"
-            class="w-full h-full object-cover rounded-t-lg"
-            />
-            <NuxtImg 
-            v-if="isWorkday"
-            src="/images/work.jpg"
             alt="Work is over"
             class="w-full h-full object-cover rounded-t-lg"
             />
